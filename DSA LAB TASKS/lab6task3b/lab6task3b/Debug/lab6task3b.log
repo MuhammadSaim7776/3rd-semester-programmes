@@ -1,0 +1,14 @@
+﻿Build started 03/12/2019 10:43:56.
+     1>Project "c:\Users\MLogix\documents\visual studio 2013\Projects\lab6task3b\lab6task3b\lab6task3b.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 3.b.cpp
+         Skipping... (no relevant changes detected)
+         3.b.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\mlogix\documents\visual studio 2013\Projects\lab6task3b\Debug\lab6task3b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\mlogix\documents\visual studio 2013\Projects\lab6task3b\Debug\lab6task3b.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\mlogix\documents\visual studio 2013\Projects\lab6task3b\Debug\lab6task3b.lib" /MACHINE:X86 Debug\3.b.obj
+         lab6task3b.vcxproj -> c:\users\mlogix\documents\visual studio 2013\Projects\lab6task3b\Debug\lab6task3b.exe
+     1>Done Building Project "c:\Users\MLogix\documents\visual studio 2013\Projects\lab6task3b\lab6task3b\lab6task3b.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.98
