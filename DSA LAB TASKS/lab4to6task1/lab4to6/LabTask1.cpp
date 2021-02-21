@@ -35,9 +35,9 @@ void main()
 {
 	Stack List;
 	string pExp = "";
-	string input = "";
-	cout << "Enter the Infix expresion\n";
-	cin >> input;
+	string input = "a+b*(c^d-e)^(f+g*h)-i";
+	/*cout << "Enter the Infix expresion\n";
+	cin >> input;*/
 	for (int i = 0; i < input.length(); i++)
 	{
 		if (input[i] >= 'a'&&input[i] <= 'z' || input[i] >= 'A'&&input[i] <= 'Z')
@@ -62,7 +62,7 @@ void main()
 		}
 		else
 		{
-			if (List.isEmpty() == true || precedence(input[i]) > precedence(List.top())||List.top()=='(')
+			if (List.isEmpty() == true || precedence(input[i]) > precedence(List.top()) || List.top() == '(')
 			{
 				List.push(new Node(input[i]));
 			}
@@ -74,7 +74,7 @@ void main()
 				}
 				else
 				{
-					while (List.isEmpty() != true&&accociativity(List.top())!=false)
+					while (List.isEmpty() != true && accociativity(List.top()) != false)
 					{
 						pExp += List.top();
 						List.pop();
@@ -94,9 +94,9 @@ void main()
 				{
 					List.pop();
 				}
-			}		
+			}
 		}
-		
+
 	}
 	while (List.isEmpty() != true)
 	{
